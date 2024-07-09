@@ -31,7 +31,7 @@ const yes = () => {
     return (
         <div className="md:flex justify-between item-center bg-white" >
             <div className="md:w-1/2 xs:w-full md:pt-20 md:pb-24">
-                <Image src="/assets/login.jpg" alt="image" width={500} height={500} className="mx-auto mt-4" /> 
+            <Image src="/assets/login.jpg" width={400} height={300} className="mx-auto mt-4" /> 
             </div>
             <div className="md:w-1/2 xs:w-full h-1 md:pt-20 xs:pt-10 md:pb-24 mx-auto text-center mt-14">
                 <p className="text-2xl text-center text-black underline"> Login </p>
@@ -67,7 +67,7 @@ const yes = () => {
              className="fixed inset-0 flex items-center justify-center"
              overlayClassName="fixed inset-0 bg-opacity-50"
 >
-             <div className="bg-blue-300 p-5 rounded-lg w-72 transform -translate-y-1/2 -translate-x-1/2 fixed top-1/2 left-1/2">
+             <div className="bg-blue-100 p-5 rounded-lg w-72 transform -translate-y-1/2 -translate-x-1/2 fixed top-1/2 left-1/2">
                <h2 className="text-center my-3 text-black underline">Forgot Password</h2>
              <input
                 className="w-full p-1.5 my-3 border border-gray-500 rounded"
