@@ -67,7 +67,7 @@ const yes = () => {
              className="fixed inset-0 flex items-center justify-center"
              overlayClassName="fixed inset-0 bg-opacity-50"
 >
-             <div className="bg-white p-5 rounded-lg w-72 transform -translate-y-1/2 -translate-x-1/2 fixed top-1/2 left-1/2">
+             <div className="bg-blue-300 p-5 rounded-lg w-72 transform -translate-y-1/2 -translate-x-1/2 fixed top-1/2 left-1/2">
                <h2 className="text-center my-3 text-black underline">Forgot Password</h2>
              <input
                 className="w-full p-1.5 my-3 border border-gray-500 rounded"
